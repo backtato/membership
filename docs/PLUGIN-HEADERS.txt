@@ -1,0 +1,15 @@
+--- /mnt/data/membership-manager-github-ready-v2/plugins/membership-manager-core/membership-manager-core.php
+ * Plugin Name: Membership Manager Core
+ * Description: Core pubblico per gestione soci, scadenze, eventi e QR check-in. Integrazioni esterne come Passcreator e WooCommerce devono vivere in add-on separati.
+ * Version: 0.4.1
+--- /mnt/data/membership-manager-github-ready-v2/plugins/membership-manager-core/uninstall.php
+--- /mnt/data/membership-manager-github-ready-v2/plugins/membership-manager-passcreator/membership-manager-passcreator.php
+ * Plugin Name: Membership Manager - Passcreator Add-on
+ * Description: Add-on PRO separato per collegare Membership Manager Core a Passcreator. Richiede Membership Manager Core.
+ * Version: 0.3.1
+ * Requires Plugins: membership-manager-core
+--- /mnt/data/membership-manager-github-ready-v2/plugins/membership-manager-woocommerce/membership-manager-woocommerce.php
+ * Plugin Name: Membership Manager WooCommerce
+ * Description: Add-on WooCommerce per Membership Manager Core: vendita/rinnovo tessere, sync ordini, prefill checkout e compatibilità HPOS.
+ * Version: 0.3.0
+ * Requires Plugins: membership-manager-core, woocommerce
